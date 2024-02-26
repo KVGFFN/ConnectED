@@ -1,0 +1,6 @@
+@ConnectED.WebAPI_HostAddress = http://localhost:5118
+
+GET {{ConnectED.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
