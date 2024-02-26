@@ -67,5 +67,10 @@ I will make use of dotNET for the backend infrastructure of the application alon
 **Angular - Frontend**<br>
 Angular is a javascript framework i have experience in. But i believe i have much to learn, especially with the introduction of new concepts in angular v17 such as conditional flows and signals. These will be used in the project.
 
-
+### Admin Panel
+**Blazor**<br>
+There will be an admin panel made in blazor so that school admins are able to:
+- Have an overview of the students and teachers
+- Have an overview of user permissions
+- Interact with user permissions
 
