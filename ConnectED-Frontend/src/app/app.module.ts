@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 
 import { ButtonModule } from 'primeng/button';
 import { SidebarModule } from 'primeng/sidebar';
+import { SidebarComponent } from './shared/components/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { SidebarModule } from 'primeng/sidebar';
     BrowserAnimationsModule,
     ButtonModule,
     SidebarModule,
+    SidebarComponent,
   ],
   providers: [
     provideClientHydration()

@@ -1,2 +1,7 @@
 @import "primeng/resources/themes/lara-dark-blue/theme.css";
 @import "primeng/resources/primeng.css";
+
+:host ::ng-deep p-sidebar div.p-sidebar 
+{    
+    position: relative !important;
+}
