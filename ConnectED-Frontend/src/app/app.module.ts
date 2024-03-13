@@ -8,10 +8,11 @@ import { AppComponent } from './app.component';
 import { ButtonModule } from 'primeng/button';
 import { SidebarModule } from 'primeng/sidebar';
 import { SidebarComponent } from './shared/components/sidebar/sidebar.component';
+import { MenubarComponent } from './shared/components/menubar/menubar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
   BrowserModule,
@@ -20,6 +21,7 @@ import { SidebarComponent } from './shared/components/sidebar/sidebar.component'
     ButtonModule,
     SidebarModule,
     SidebarComponent,
+    MenubarComponent
   ],
   providers: [
     provideClientHydration()
