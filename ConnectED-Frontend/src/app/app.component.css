@@ -1,0 +1,29 @@
+.app-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .main-content-container {
+    flex: 1;
+    padding: 20px;
+    margin-left: 250px;
+    transition: margin-left 0.3s;
+  }
+  
+  .main-content-container:not(.sidebar-open) {
+    margin-left: 0;
+  }
+  
+  :host ::ng-deep .p-sidebar {
+    width: 250px;
+  }
+  
+  :host ::ng-deep .p-sidebar-left {
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+  
+  :host ::ng-deep .p-sidebar-content {
+    padding: 20px;
+  }

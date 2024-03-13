@@ -10,4 +10,5 @@ import { ButtonModule } from 'primeng/button';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
+  sidebarVisible = false;
 }

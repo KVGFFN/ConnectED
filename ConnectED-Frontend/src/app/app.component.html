@@ -1,8 +1,10 @@
 <div class="app-container">
-    <app-sidebar></app-sidebar>
+  <app-sidebar></app-sidebar>
 
-
-  <div class="main-content">
-    <h1>EPIC</h1>
+  <div class="main-content-container" [ngClass]="{'sidebar-open': sidebarVisible}">
+    <div class="main-content">
+      <button title="Toggle" pButton type="button" label="Toggle Sidebar"></button>
+      <h1>EPIC</h1>
+    </div>
   </div>
 </div>

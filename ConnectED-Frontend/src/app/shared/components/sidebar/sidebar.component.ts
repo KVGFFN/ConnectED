@@ -9,5 +9,5 @@ import { SidebarModule } from 'primeng/sidebar';
   styleUrl: './sidebar.component.css'
 })
 export class SidebarComponent {
-  sidebarIsVisible = true;
+  sidebarVisible = true;
 }

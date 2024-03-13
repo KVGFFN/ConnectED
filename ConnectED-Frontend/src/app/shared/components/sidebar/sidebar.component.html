@@ -1,7 +1,9 @@
-<p-sidebar [(visible)]="sidebarIsVisible" [appendTo]="'body'" [dismissible]="false" [showCloseIcon]="false" [modal]="false">
-    <ng-template pTemplate="header">
-        <h1>ConnectED</h1>
-    </ng-template>
-    <p>sidebar works!</p>
+<p-sidebar [(visible)]="sidebarVisible" [baseZIndex]="10000" [modal]="false" [dismissible]="false" [showCloseIcon]="false">
+    <!-- Sidebar content goes here -->
+    <h2>Sidebar</h2>
+    <ul>
+      <li>Menu Item 1</li>
+      <li>Menu Item 2</li>
+      <li>Menu Item 3</li>
+    </ul>
 </p-sidebar>
-

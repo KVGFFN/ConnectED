@@ -1,0 +1,13 @@
+:host ::ng-deep .p-sidebar {
+    width: 250px;
+  }
+  
+  :host ::ng-deep .p-sidebar-left {
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+  
+  :host ::ng-deep .p-sidebar-content {
+    padding: 20px;
+  }
