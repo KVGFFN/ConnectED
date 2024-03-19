@@ -1,8 +1,28 @@
-<p-menubar>
-    <ng-template pTemplate="start">
-
-    </ng-template>
-    <ng-template pTemplate="end">
-
-    </ng-template>
-  </p-menubar>
+<p-toolbar>
+  <ng-template pTemplate="start">
+    <!-- <img
+      title="img"
+      src=""
+    /> -->
+  </ng-template>
+  <ng-template pTemplate="center">
+    <div class="bar__middle">
+      <!---->
+    </div>
+  </ng-template>
+  <ng-template pTemplate="end">
+    <div class="bar__end">
+      <button type="button" title="search" class="btn">
+        <fa-icon [icon]="faComments" />
+      </button>
+      <button type="button" title="search" class="btn">
+        <fa-icon [icon]="faBell" />
+      </button>
+      <p-avatar
+        image="https://primefaces.org/cdn/primeng/images/demo/avatar/amyelsner.png"
+        shape="circle"
+      />
+      <span class="font-bold text-bluegray-50">John Doe</span>
+    </div>
+  </ng-template>
+</p-toolbar>

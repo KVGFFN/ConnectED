@@ -10,18 +10,29 @@ import { SidebarModule } from 'primeng/sidebar';
 import { SidebarComponent } from './shared/components/sidebar/sidebar.component';
 import { MenubarComponent } from './shared/components/menubar/menubar.component';
 
+import { TabViewModule } from 'primeng/tabview';
+import { FormsModule } from '@angular/forms';
+import { PanelModule } from 'primeng/panel';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 @NgModule({
   declarations: [
     AppComponent,
   ],
   imports: [
-  BrowserModule,
+    BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     ButtonModule,
     SidebarModule,
     SidebarComponent,
-    MenubarComponent
+    MenubarComponent,
+    TabViewModule,
+    FormsModule,
+    ButtonModule,
+    BrowserAnimationsModule,
+    PanelModule,
+    FontAwesomeModule,
   ],
   providers: [
     provideClientHydration()
