@@ -1,9 +1,38 @@
-<p-sidebar [(visible)]="sidebarVisible" [baseZIndex]="10000" [modal]="false" [dismissible]="false" [showCloseIcon]="false">
-    <!-- Sidebar content goes here -->
-    <h2>Sidebar</h2>
-    <ul>
-      <li>Menu Item 1</li>
-      <li>Menu Item 2</li>
-      <li>Menu Item 3</li>
-    </ul>
-</p-sidebar>
+<div class="card">
+    <p-sidebar #sidebarRef [visible]="true" [modal]="false" [dismissible]="false">
+      <ng-template pTemplate="headless">
+        <div class="sidebar">
+          <div class="sidebar__header">
+            <span class="sidebar__logo">
+              <span class="sidebar__logo-text">ConnectED</span>
+            </span>
+          </div>
+          <div class="sidebar__content">
+            <ul class="sidebar__menu">
+              <li>
+                <div class="sidebar__menu-item">
+                  <span class="sidebar__menu-item-text">FAVORITES</span>
+                  <i class="pi pi-chevron-down"></i>
+                </div>
+                <ul class="sidebar__submenu">
+                  <!-- Submenu items -->
+                </ul>
+              </li>
+            </ul>
+            <ul class="sidebar__menu">
+              <li>
+                <div class="sidebar__menu-item">
+                  <span class="sidebar__menu-item-text">APPLICATION</span>
+                  <i class="pi pi-chevron-down"></i>
+                </div>
+                <ul class="sidebar__submenu">
+                  <!-- Submenu items -->
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </ng-template>
+    </p-sidebar>
+  </div>
+  
