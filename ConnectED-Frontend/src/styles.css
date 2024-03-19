@@ -4,7 +4,10 @@
 /* Import PrimeFlex */
 @import "primeflex/primeflex.css";
 
-:host ::ng-deep p-sidebar div.p-sidebar 
-{    
+body {
+    margin: 0;
+}
+
+:host ::ng-deep p-sidebar div.p-sidebar {    
     position: relative !important;
 }
