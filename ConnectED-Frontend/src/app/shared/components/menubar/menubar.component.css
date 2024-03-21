@@ -1,5 +1,7 @@
 :host ::ng-deep .p-toolbar {
   border-radius: 0px;
+  height: 70px;
+  flex-wrap: nowrap;
 }
 
 .btn {
