@@ -2,9 +2,9 @@
   <app-sidebar></app-sidebar>
 
   <div class="main-content-container" [ngClass]="{'sidebar-open': true}">
-    <app-menubar></app-menubar>
     <div class="main-content">
-      <h1>Test</h1>
+      <app-breadcrumb-bar [model]="items"/>
+      <router-outlet/>
     </div>
   </div>
 </div>
