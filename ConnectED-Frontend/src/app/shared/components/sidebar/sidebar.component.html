@@ -11,8 +11,8 @@
             <ul class="sidebar__menu">
               <li>
                 <div class="sidebar__menu-item">
-                  <span class="sidebar__menu-item-text">FAVORITES</span>
-                  <i class="pi pi-chevron-down"></i>
+                  <fa-icon [icon]="faHome" class="sidebar__menu-item-icon"></fa-icon>
+                  <span class="sidebar__menu-item-text">Home</span>
                 </div>
                 <ul class="sidebar__submenu">
                   <!-- Submenu items -->
@@ -22,14 +22,19 @@
             <ul class="sidebar__menu">
               <li>
                 <div class="sidebar__menu-item">
-                  <span class="sidebar__menu-item-text">APPLICATION</span>
-                  <i class="pi pi-chevron-down"></i>
+                  <fa-icon [icon]="faBook" class="sidebar__menu-item-icon"></fa-icon>
+                  <span class="sidebar__menu-item-text">Courses</span>
                 </div>
                 <ul class="sidebar__submenu">
                   <!-- Submenu items -->
                 </ul>
               </li>
             </ul>
+          </div>
+          <div class="sidebar__footer">
+            <div class="sidebar__footer-user">
+              
+            </div>
           </div>
         </div>
       </ng-template>
