@@ -14,6 +14,7 @@ import { TabViewModule } from 'primeng/tabview';
 import { FormsModule } from '@angular/forms';
 import { PanelModule } from 'primeng/panel';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { BreadcrumbBarComponent } from './shared/components/breadcrumb-bar/breadcrumb-bar.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     BrowserAnimationsModule,
     PanelModule,
     FontAwesomeModule,
+    BreadcrumbBarComponent
   ],
   providers: [
     provideClientHydration()
