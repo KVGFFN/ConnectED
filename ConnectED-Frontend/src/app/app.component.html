@@ -1,10 +1,12 @@
-<div class="app-container">
-  <app-sidebar></app-sidebar>
+<div class="app-container h-0 m-0">
+  <div class="col-fixed w-18rem m-0">
+    <app-sidebar></app-sidebar>
+  </div>
 
-  <div class="main-content-container" [ngClass]="{'sidebar-open': true}">
+  <div class="col">
     <div class="main-content">
-      <app-breadcrumb-bar [model]="items"/>
-      <router-outlet/>
+      <app-breadcrumb-bar [model]="items" />
+      <router-outlet />
     </div>
   </div>
 </div>
