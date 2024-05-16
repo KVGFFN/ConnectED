@@ -1,0 +1,22 @@
+<div class="card flex justify-content-center mt-5 w-full">
+    <p-card header="Upcoming deadlines" class="w-full">
+        <ng-template pTemplate="content">
+            <div>
+                <p-table [value]="products">
+                    <ng-template pTemplate="header">
+                        <tr>
+                            <th>Deadline</th>
+                            <th>Due</th>
+                        </tr>
+                    </ng-template>
+                    <ng-template pTemplate="body">
+                        <tr>
+                            <td>History Task</td>
+                            <td>09/02/2024</td>
+                        </tr>
+                    </ng-template>
+                </p-table>
+            </div>
+        </ng-template>
+    </p-card>
+</div>

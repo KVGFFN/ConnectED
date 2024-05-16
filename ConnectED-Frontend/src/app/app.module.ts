@@ -15,6 +15,7 @@ import { FormsModule } from '@angular/forms';
 import { PanelModule } from 'primeng/panel';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BreadcrumbBarComponent } from './shared/components/breadcrumb-bar/breadcrumb-bar.component';
+import { CardModule } from 'primeng/card';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { BreadcrumbBarComponent } from './shared/components/breadcrumb-bar/bread
     BrowserAnimationsModule,
     PanelModule,
     FontAwesomeModule,
-    BreadcrumbBarComponent
+    BreadcrumbBarComponent,
+    CardModule
   ],
   providers: [
     provideClientHydration()

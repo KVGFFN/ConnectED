@@ -1,3 +1,4 @@
 .breadcrumb__bar {
     width: 100vw;
+    background-color: var(--surface-500);
 }

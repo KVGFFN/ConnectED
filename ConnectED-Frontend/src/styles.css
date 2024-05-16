@@ -11,3 +11,7 @@ body {
 :host ::ng-deep p-sidebar div.p-sidebar {    
     position: relative !important;
 }
+
+:host ::ng-deep p-sidebar {
+    background-color: var(--blue-50);
+}
