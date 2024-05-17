@@ -12,10 +12,6 @@ import { SidebarModule } from 'primeng/sidebar';
   styleUrl: './sidebar.component.css'
 })
 export class SidebarComponent {
-  // icons
-  faHome = faHome;
-  faBook = faBook;
-
-  
-  sidebarVisible = true;
+  iconHome = faHome;
+  iconBook = faBook;
 }
